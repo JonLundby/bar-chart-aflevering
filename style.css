@@ -20,7 +20,7 @@ header {
 #bar {
   background-color: green;
   width: 15px;
-  height: 0;
+  height: 100;
   align-self: flex-end;
   margin: 2px;
 }

@@ -31,10 +31,16 @@ function getNumberOfCustomers() {
   return Math.floor(Math.random() * 32);
 }
 
+// function updateBarHeight() {
+//   for (let i = 0; i < allBars.length; i++) {
+//     for (let j = 0; j < barArray.length; j++) {
+//       allBars[j].style.height = `${barArray[j]}%`;
+//     }
+//   }
+// }
+
 function updateBarHeight() {
-  for (let i = 0; i < allBars.length; i++) {
-    for (let j = 0; j < barArray.length; j++) {
-      allBars[j].style.height = `${barArray[j]}%`;
-    }
+  for (let i = 0; i < barArray.length; i++) {
+    allBars[i].style.height = `${barArray[i]}%`;
   }
 }
